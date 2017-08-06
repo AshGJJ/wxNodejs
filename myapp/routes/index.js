@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
    res.send("error");
   }
 
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: '测试11111' });
 });
 
 module.exports = router;
